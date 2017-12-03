@@ -1,0 +1,64 @@
+body {
+    max-width: 400px;
+    BACKGROUND: Gainsboro;
+    color: #CCC;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+
+a:hover {
+color: black; text-decoration: underline; 
+}
+
+
+.menuxa {
+color: black;
+BACKGROUND: #fff;
+PADDING:8PX;
+BORDER-TOP:1PX DOTTED #4D4D4D;
+}
+
+.meni {
+color: black;
+BACKGROUND: #fff;
+PADDING:8PX;
+BORDER-TOP:1PX DOTTED #4D4D4D;
+border-radius : 7px 7px 0px 0px;
+}
+
+
+.test {
+color: #55BE52;
+BACKGROUND: CornflowerBlue;
+BORDER-TOP:1PX DOTTED #4D4D4D;
+PADDING: 8PX;
+}
+
+
+.head {
+color: #fff;
+BACKGROUND: #002800 url(head.png) ;
+BORDER-TOP:1PX DOTTED #4D4D4D;
+PADDING: 7PX;
+}
+
+.kabi {
+color: WhiteSmoke;
+BACKGROUND: #002800 url(head.png) ;
+BORDER-TOP:1PX DOTTED #4D4D4D;
+border-radius : 0 0 7px 7px;
+PADDING: 7PX;
+}
+
+.foot {
+color: #fff;
+BACKGROUND: #002800 url(head.png) ;
+BORDER-TOP:1PX DOTTED #4D4D4D;
+PADDING: 8PX;
+}
