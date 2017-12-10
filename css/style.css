@@ -1,3 +1,58 @@
+/*admin message*/
+
+.message-wrap {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.done,
+.fail {
+    display: none;
+    padding: 20px 20px;
+    max-width: 420px;
+    border-radius: 3px;
+    margin: 100px auto;
+    color: #d7d7e2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.done {
+
+    background-color: #4caf5094;
+}
+
+.fail {
+
+    background-color: #f44336bf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*header*/
 
 header {
@@ -45,6 +100,9 @@ header h2 {
 
 
 
+
+
+
 /*description*/
 
 .description {
@@ -71,6 +129,11 @@ img {
 
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+
+
+
+
 
 
 
@@ -169,9 +232,7 @@ a:focus {
     color: #ffffff;
 }
 
-.container {
-    width: auto;
-}
+
 
 .container-alt {
     padding-right: 15px;
@@ -213,6 +274,9 @@ a:focus {
     margin-top: 5px;
     margin-bottom: 15px;
 }
+
+
+
 
 
 
@@ -312,6 +376,9 @@ a:focus {
 
 
 
+
+
+
 /* 2.0 Dropdown */
 
 .dropdown-menu {
@@ -361,6 +428,9 @@ a:focus {
         opacity: 1;
     }
 }
+
+
+
 
 
 
@@ -574,6 +644,9 @@ a:focus {
 .panel-fill.panel-inverse {
     background-color: #4a4a4a;
 }
+
+
+
 
 
 
@@ -812,6 +885,9 @@ a:focus {
 
 
 
+
+
+
 /* 2.3 Choose-button */
 
 .fileUpload {
@@ -830,6 +906,9 @@ a:focus {
     opacity: 0;
     filter: alpha(opacity=0);
 }
+
+
+
 
 
 
@@ -890,6 +969,8 @@ a:focus {
 .white-bg {
     background-color: #ffffff;
 }
+
+
 
 
 
@@ -974,6 +1055,9 @@ a:focus {
 
 
 
+
+
+
 /*2.6 text input*/
 
 .form-control {
@@ -995,22 +1079,6 @@ a:focus {
     background: #FFF;
     box-shadow: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1066,21 +1134,6 @@ a:focus {
 .label-inverse {
     background-color: #212121;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1180,22 +1233,6 @@ a:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 2.9 Pagination */
 
 .pagination>li>a,
@@ -1214,22 +1251,6 @@ a:focus {
     background-color: #317eeb;
     border-color: #317eeb;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1443,23 +1464,6 @@ a:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 2.11 Progress Bars */
 
 .progress {
@@ -1579,23 +1583,6 @@ a:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 2.12 Modals */
 
 .modal .modal-dialog .modal-content {
@@ -1626,22 +1613,6 @@ a:focus {
 .modal-full {
     width: 98%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1710,22 +1681,6 @@ a:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 2.13 Alerts */
 
 .alert-success {
@@ -1737,22 +1692,6 @@ a:focus {
 .alert-success .alert-link {
     color: #608A72;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1830,21 +1769,6 @@ a:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 2.15 Other Inputs */
 
 .has-success .form-control {
@@ -1866,24 +1790,6 @@ a:focus {
     border: 1px solid #eee;
     border-radius: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2168,26 +2074,6 @@ lesshat-selector {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***************** 4.TOPBAR ****************/
 
 .topbar {
@@ -2309,22 +2195,6 @@ lesshat-selector {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* SEARCHBAR */
 
 .search-bar {
@@ -2375,23 +2245,6 @@ input.search-bar:-ms-input-placeholder {
 .navbar-nav {
     margin: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2698,21 +2551,6 @@ body.fixed-left .side-menu.left {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Leftbar Profile */
 
 #wrapper.enlarged .left.side-menu .user-details {
@@ -2777,24 +2615,6 @@ body.fixed-left .side-menu.left {
     transition: all 200ms ease-out;
     overflow-y: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2905,22 +2725,6 @@ body.fixed-left .side-menu.left {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /************ 7.Email ************/
 
 .mails a {
@@ -2936,22 +2740,6 @@ body.fixed-left .side-menu.left {
 .mails .checkbox label {
     min-height: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3065,24 +2853,6 @@ body.fixed-left .side-menu.left {
 .fc-basic-view td.fc-day-number {
     padding-right: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3453,6 +3223,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Chat / Todo */
 
 .conversation-list {
@@ -3605,6 +3416,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*ToDo List*/
 
 #todo-message {
@@ -3631,6 +3483,47 @@ body.fixed-left .side-menu.left {
 .todo-send {
     padding-left: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3712,6 +3605,47 @@ body.fixed-left .side-menu.left {
 .gal-detail h4 {
     margin-top: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3860,6 +3794,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Pricing-2 */
 
 .pricing-item {
@@ -3964,6 +3939,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************ 13. FORMS ***********/
 
 #login,
@@ -4017,11 +4033,93 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Form-validation */
 
 .error {
     color: #ff0000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4108,6 +4206,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Multiple Select */
 
 .search-input {
@@ -4127,6 +4266,47 @@ body.fixed-left .side-menu.left {
 .ms-container .ms-selection li.ms-hover {
     background-color: #317eeb;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4233,6 +4413,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* summernote */
 
 .note-editor .note-toolbar {
@@ -4260,6 +4481,47 @@ body.fixed-left .side-menu.left {
 .note-toolbar {
     padding: 5px 0 10px 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4351,6 +4613,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Form- Pluins */
 
 .bootstrap-timepicker-widget table td a:hover {
@@ -4398,11 +4701,93 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* X-editor */
 
 .editor-horizontal .popover-content {
     padding: 9px 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4561,6 +4946,47 @@ body.fixed-left .side-menu.left {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Datapiker */
 
 .datepicker table tr td.active,
@@ -4571,6 +4997,47 @@ body.fixed-left .side-menu.left {
     background-color: #1a2942 !important;
     background-image: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4639,6 +5106,47 @@ th {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Table */
 
 table.focus-on tbody tr.focused th,
@@ -4651,6 +5159,47 @@ table.focus-on tbody tr.focused td {
     font-weight: normal;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4736,6 +5285,47 @@ table.focus-on tbody tr.focused td {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Datatable */
 
 #datatable td {
@@ -4775,6 +5365,47 @@ div.dataTables_info {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********* 15. CHARTS *******************/
 
 
@@ -4785,6 +5416,47 @@ div.dataTables_info {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4871,6 +5543,47 @@ div.dataTables_info {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Flot-chart */
 
 #flotTip {
@@ -4884,6 +5597,47 @@ div.dataTables_info {
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4978,6 +5732,47 @@ div.dataTables_info {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************* 17.PAGES ****************/
 
 .bg-img {
@@ -4995,6 +5790,47 @@ div.dataTables_info {
     -moz-border-radius: 6px 6px 0px 0px;
     -webkit-border-radius: 6px 6px 0px 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5108,6 +5944,47 @@ div.dataTables_info {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Timeline-2 */
 
 .timeline-2 {
@@ -5152,6 +6029,47 @@ div.dataTables_info {
 .item-info p {
     margin-bottom: 10px !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5645,10 +6563,6 @@ div.dataTables_info {
 
 
 
-
-
-
-
 /* 17.3 Log-in */
 
 .wrapper-page {
@@ -5676,10 +6590,6 @@ div.dataTables_info {
     z-index: 999;
     position: relative;
 }
-
-
-
-
 
 
 
@@ -5737,10 +6647,6 @@ div.dataTables_info {
 
 
 
-
-
-
-
 /* 17.5 Error-pages */
 
 .ex-page-content h1 {
@@ -5750,10 +6656,6 @@ div.dataTables_info {
     color: #252932;
     text-shadow: rgba(61, 61, 61, 0.3) 1px 1px, rgba(61, 61, 61, 0.2) 2px 2px, rgba(61, 61, 61, 0.3) 3px 3px;
 }
-
-
-
-
 
 
 
@@ -5840,10 +6742,6 @@ div.dataTables_info {
 
 
 
-
-
-
-
 /* 17.7 Maintenance */
 
 .icon-main {
@@ -5863,10 +6761,6 @@ div.dataTables_info {
     width: 80%;
     margin: 0px auto;
 }
-
-
-
-
 
 
 
@@ -5916,6 +6810,47 @@ div.dataTables_info {
     -webkit-border-radius: 50%;
     color: #7A7676;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6022,6 +6957,47 @@ div.dataTables_info {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Container-alt */
 
 @media (min-width: 768px) {
@@ -6041,6 +7017,47 @@ div.dataTables_info {
         width: 1170px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6098,7 +7115,21 @@ div.dataTables_info {
 
 
 
+
+
+
+
+
+
+
+
+
 /*admin tables*/
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
 
 td {
     padding: 5px 3px;
